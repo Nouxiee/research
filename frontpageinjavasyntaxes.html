@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Java Guide</title>
+    <style>
+        h1{
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 10px;
+    background-color: #f4f4f4; /* This can be kept as a fallback color */
+    min-height: 100vh; /* Ensures the body takes up the full height of the viewport */
+    display: flex; /* Makes the body a flex container */
+    flex-direction: column; /* Makes the body a column flex container */
+    background-image: url(java3.webp);
+}
+
+.bg-img {
+    /* The image used */
+    background-image: url("java3.webp");
+    min-height: 100vh; /* Set to 100vh to cover the full height of the viewport */
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the image covers the entire area */
+    
+    /* Needed to position the navbar */
+    position: relative;
+}
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .main-content {
+            background: beige;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 3px 0;
+            background: #1a1c1d;
+            color: #ffffff;
+            margin-top: auto; /* Add this to make the footer move to the bottom */
+        }
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color:black;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Simple Java Guide</h1>
+        <div class="bg-img">
+            <div class="container">
+              <div class="topnav">
+                <a href="frontpageinjavasyntaxes.html">Home</a>
+                <a href="JavaSyntaxesForNewbie.html">Java Codes</a>
+                <a href="#about">About</a>
+              </div>
+            </div>
+          </div>
+    </header>
+    <footer>
+        <p>&copy; Simple Java Guide. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
